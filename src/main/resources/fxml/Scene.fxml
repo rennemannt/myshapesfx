@@ -6,10 +6,9 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-
-<VBox fx:id="mainVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.rennemann.myshapesfx.FXMLController">
+<VBox fx:id="mainVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.rennemann.myshapesfx.FXMLController">
    <children>
-      <HBox alignment="CENTER_LEFT" prefHeight="40.0" spacing="10.0" VBox.vgrow="NEVER">
+      <HBox prefHeight="40.0" spacing="10.0" VBox.vgrow="NEVER">
          <children>
             <Button fx:id="squareButton" mnemonicParsing="false" text="Square" />
             <Button fx:id="circleButton" mnemonicParsing="false" text="Circle" />
@@ -19,7 +18,7 @@
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
          </padding>
       </HBox>
-      <FlowPane fx:id="shapesFlowPane" hgap="2.0" vgap="2.0" VBox.vgrow="ALWAYS">
+      <FlowPane fx:id="shapesFlowPane" columnHalignment="CENTER" hgap="2.0" vgap="2.0" VBox.vgrow="ALWAYS">
          <padding>
             <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
          </padding>
